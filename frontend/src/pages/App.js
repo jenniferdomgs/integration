@@ -9,7 +9,7 @@ function App() {
   }
 
   function btnPOSTFunctionClick() {
-    getFunction()
+    postFunction()
       .then(data => console.log(data))
       .catch(err => console.log(err))
   }
